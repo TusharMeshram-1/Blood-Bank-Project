@@ -1,0 +1,493 @@
+
+.mainbackground
+{
+     /*background-color: rgba(112, 107, 107, 0.2);*/
+    /*background-image: url(131756-abstract-red-and-white-polygon-pattern-background.jpg);
+    background-position:center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    /* filter: blur(8px); */
+}
+.navbar
+{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    /* background-color: rgb(65,105,225);
+    border: palegreen 10px solid; */
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #1116;
+}
+
+
+.loginpart
+{
+    align-items: center;
+    text-align: center;
+}
+
+.loginlogo
+{
+    padding-top: 14px;
+}
+.logo
+{
+    padding-top: 4px;
+    height: 100px;
+    width: 100px;
+    flex:1;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 50px;
+    margin:5px;
+    color: white;
+    font-family: fantasy;
+    text-align:center;
+    text-transform: uppercase;
+}
+h2{
+    margin: 5px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+.navname
+{   
+    padding-left: 30px;
+    flex:5;
+    letter-spacing: 10px;
+}
+button
+{
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: #1116;
+    /* border: rgb(255, 0, 34) solid; */
+    border-radius: 10px;
+}
+.navoption
+{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.loginbutton,.registerbutton
+{   
+    text-align: center;
+    font-size: 23;
+    height:45px;
+    width: 135px;
+    border-radius: 30px;
+    /* border:red solid; */
+    vertical-align: middle;
+    /* clip-path: circle(10%); */
+}
+
+.registerpart
+{
+    align-items: center;
+    text-align: center;
+}
+
+.registerlogo
+{
+    padding-top: 14px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menud
+{
+    
+}
+.menubar
+{
+    height: 48px;
+    background-color: #1116;
+    border-radius: 44px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* border:black solid; */
+    border-radius: 10px;
+    padding-top: 9px;
+}
+
+.menutext
+{
+    padding-top: 0px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    /* border:black solid; */
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.part1
+{
+ /*  display: flex; */ 
+ /* background-color: rgb(30, 138, 210);  */
+ height: 500px;
+ justify-content: flex;
+
+
+}
+
+.part1a
+{
+    /* background-color: rgb(29, 161, 69); */
+    height: 500px;
+    width: 490px;
+    flex: 1;
+}
+
+
+.part1b
+{
+    background-color: #1113;
+    height: 350px;
+    width: 200px;
+    /* border-radius: 40px; */
+    clip-path: circle(40%);
+    flex: 0.9;
+    text-align: center;
+   
+}
+
+.part1c
+{
+    background-color: #1113;
+    height: 350px;
+    width: 200px;
+    /* border-radius: 40px; */
+    clip-path: circle(40%);
+    flex: 0.9;
+    text-align: center;
+}
+
+.part2
+{
+    background-color: rgb(37, 37, 34);
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.part2c,.part2a,.part2b
+{
+    height: 500px;
+    width: 500px;
+}
+
+.part2a
+{
+    background-color: rgb(247, 247, 8);
+    
+}
+
+.part2b
+{
+    background-color: rgb(20, 179, 28);
+    
+}
+
+.part2c
+{
+    background-color: rgb(17, 29, 206);
+
+    
+}
+
+.part3
+{
+    /* background-color: rgb(255, 0, 0); */
+    height: 900px;   
+    display: flex;
+    text-align: center;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+.footerpart1,.footerpart2,.footerpart3
+{
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+
+}
+
+.footerpart1
+{
+    background-color: rgb(4, 0, 255);
+}
+
+.footerpart2
+{
+    background-color: rgb(0, 255, 106);
+}
+
+.footerpart3
+{
+    background-color: rgb(255, 0, 179);
+}
+
+
+    /* footer
+{
+align-content: center;
+} */
+
+
+.form
+{
+
+}
+
+html, body {
+    min-height: 100%;
+    }
+    body, div, form, input, select, p { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    }
+    h1 {
+    margin: 0;
+    font-weight: 400;
+    }
+    h3 {
+    margin: 12px 0;
+    color: #8ebf42;
+    }
+    .main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(1, 19, 46)
+    }
+    form {
+    width: 100%;
+    padding: 20px;
+    }
+    fieldset {
+    border: none;
+    border-top: 1px solid #8ebf42;
+    }
+    .account-details, .personal-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .account-details >div, .personal-details >div >div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    .account-details >div, .personal-details >div, input, label {
+    width: 100%;
+    }
+    label {
+    padding: 0 5px;
+    text-align: right;
+    vertical-align: middle;
+    color:rgba(21, 231, 84, 0.959);
+    }
+    input {
+    padding: 5px;
+    vertical-align: middle;
+    }
+    .checkbox {
+    margin-bottom: 10px;
+    }
+    select, .children, .gender, .bdate-block {
+    width: calc(100% + 26px);
+    padding: 5px 0;
+    }
+    select {
+    background: transparent;
+    }
+    .gender input {
+    width: auto;
+    } 
+    .gender label {
+    padding: 0 5px 0 0;
+    } 
+    .bdate-block {
+    display: flex;
+    justify-content: space-between;
+    }
+    .birthdate select.day {
+    width: 35px;
+    }
+    .birthdate select.mounth {
+    width: calc(100% - 94px);
+    }
+    .birthdate input {
+    width: 38px;
+    vertical-align: unset;
+    }
+    .checkbox input, .children input {
+    width: auto;
+    margin: -2px 10px 0 0;
+    }
+    .checkbox a {
+    color: #8ebf42;
+    }
+    .checkbox a:hover {
+    color: #82b534;
+    }
+    button {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-radius: 5px; 
+    border: none;
+    background: #8ebf42; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    }
+    button:hover {
+    background: #82b534;
+    }
+    @media (min-width: 568px) {
+    .account-details >div, .personal-details >div {
+    width: 50%;
+    }
+    label {
+    width: 40%;
+    }
+    input {
+    width: 60%;
+    }
+    select, .children, .gender, .bdate-block {
+    width: calc(60% + 16px);
+    }
+    }
+
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: 'Baloo 2', cursive;
+    }
+    .banner-text {
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+    .banner-text ul {
+        height: 50px;
+        float: right;
+    }
+    .banner-text ul li {
+        display: inline-block;
+        padding: 40px 15px;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 20px;
+    }
+    .banner-text ul li:hover {
+        cursor: pointer;
+    }
+    .banner-text h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+        margin-top: 20%;
+    }
+    .animation-area {
+        background: linear-gradient(to left, #8942a8, #ba382f);
+        width: 100%;
+        height: 100vh;
+    }
+    .box-area {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .box-area li {
+        position: absolute;
+        display: block;
+        list-style: none;
+        width: 25px;
+        height: 25px;
+        background: rgba(255, 255, 255, 0.2);
+        animation: animate 20s linear infinite;
+        bottom: -150px;
+    }
+    .box-area li:nth-child(1) {
+        left: 86%;
+        width: 80px;
+        height: 80px;
+        animation-delay: 0s;
+    }
+    .box-area li:nth-child(2) {
+        left: 12%;
+        width: 30px;
+        height: 30px;
+        animation-delay: 1.5s;
+        animation-duration: 10s;
+    }
+    .box-area li:nth-child(3) {
+        left: 70%;
+        width: 100px;
+        height: 100px;
+        animation-delay: 5.5s;
+    }
+    .box-area li:nth-child(4) {
+        left: 42%;
+        width: 150px;
+        height: 150px;
+        animation-delay: 0s;
+        animation-duration: 15s;
+    }
+    .box-area li:nth-child(5) {
+        left: 65%;
+        width: 40px;
+        height: 40px;
+        animation-delay: 0s;
+    }
+    .box-area li:nth-child(6) {
+        left: 15%;
+        width: 110px;
+        height: 110px;
+        animation-delay: 3.5s;
+    }
+    @keyframes animate {
+        0% {
+            transform: translateY(0) rotate(0deg);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(-800px) rotate(360deg);
+            opacity: 0;
+        }
+    }
+    
+    /* Ambulance style -----------------*/
+
